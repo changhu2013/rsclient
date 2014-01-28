@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE parser-config [
+<!ELEMENT PARSER (#PCDATA)>
+<!ATTLIST PARSER PREFIX CDATA #REQUIRED>
+<!ATTLIST PARSER CLASS CDATA #REQUIRED>
+]>
+<parser-config>
+	<parser prefix="JSON" class="mobi.dadoudou.rsclient.web.parse.JSONParser" />
+</parser-config>
