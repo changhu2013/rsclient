@@ -85,7 +85,7 @@
 	
 		<plugins>
 			<plugin id="spring"
-				class="com.riambsoft.rsclient.plugin.spring.SpringObjectFactory">
+				class="mobi.dadoudou.rsclient.plugin.spring.SpringObjectFactory">
 				<property name="contextConfigLocation" value="spring.xml"></property>
 			</plugin>
 		</plugins>
